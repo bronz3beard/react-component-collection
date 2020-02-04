@@ -1,0 +1,18 @@
+footer {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  position: absolute;
+  display: inline-flex;
+
+  p {
+    color: #000000;
+    text-align: right;
+    padding-right: 2rem;
+
+    a {
+      color: #000000;
+      text-decoration: none;
+    }
+  }
+}

@@ -42,6 +42,42 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "bronz3beard.react-component-collection/footer@0.2.5": {
+        "files": [
+            {
+                "relativePath": "src/components/footer/footer.module.scss",
+                "test": false,
+                "name": "footer.module.scss"
+            },
+            {
+                "relativePath": "src/components/footer/index.js",
+                "test": false,
+                "name": "index.js"
+            }
+        ],
+        "mainFile": "src/components/footer/index.js",
+        "trackDir": "src/components/footer",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "bronz3beard.react-component-collection/header@0.2.6": {
+        "files": [
+            {
+                "relativePath": "src/components/header/header.module.scss",
+                "test": false,
+                "name": "header.module.scss"
+            },
+            {
+                "relativePath": "src/components/header/index.js",
+                "test": false,
+                "name": "index.js"
+            }
+        ],
+        "mainFile": "src/components/header/index.js",
+        "trackDir": "src/components/header",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "bronz3beard.react-component-collection/picture@0.2.2": {
         "files": [
             {
