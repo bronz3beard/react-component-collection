@@ -23,7 +23,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
  * @example <Picture image="https://www.w3schools.com/w3css/img_lights.jpg" imageAlt="Northern Lights" />
 
- * @example <Picture image={images} />
+ * @example <Picture image={images} /> 
 
  */
 var Picture = function Picture(props) {

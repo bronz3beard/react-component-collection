@@ -24,7 +24,25 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/picture@0.2.1": {
+    "bronz3beard.react-component-collection/card@0.2.4": {
+        "files": [
+            {
+                "relativePath": "src/components/card/card.module.scss",
+                "test": false,
+                "name": "card.module.scss"
+            },
+            {
+                "relativePath": "src/components/card/index.js",
+                "test": false,
+                "name": "index.js"
+            }
+        ],
+        "mainFile": "src/components/card/index.js",
+        "trackDir": "src/components/card",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "bronz3beard.react-component-collection/picture@0.2.2": {
         "files": [
             {
                 "relativePath": "src/components/picture/README.md",
