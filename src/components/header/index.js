@@ -6,7 +6,7 @@ import styles from './header.module.scss';
  * @render react
  * @name FHeader
  * @description This is a simple header element which can contain any type of children
- * @example <Header>The is the headers</Header> 
+ * @example <Header>This is a simple header</Header> 
  */
 
 const Header = (props) => {
