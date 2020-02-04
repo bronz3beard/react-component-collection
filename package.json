@@ -39,5 +39,18 @@
     },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "yarn"
+  },
+  "overrides": {
+    "components/*": {
+      "env": {
+        "compiler": "bit.envs/bundlers/webpack-css-modules@4.0.1"
+      }
+    }
+  },
+  "components/*": {
+    "peerDependencies": {
+      "react": "16.8.6",
+      "react-dom": "16.8.6"
+    }
   }
 }

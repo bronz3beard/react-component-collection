@@ -1,0 +1,55 @@
+.row {
+
+    top:20%;
+
+    left: 0;
+
+    padding: 0;
+
+    width: 100%;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    position: absolute;
+
+    align-self: center;
+
+    justify-content: center;
+
+    overflow-x: hidden;
+
+
+
+    .column {
+
+        
+
+        .imageContainer {
+
+            width: 12em;
+
+            padding: 1rem 2rem;
+
+            text-align: center;
+
+            cursor: pointer;
+
+
+
+            img {
+
+                width: 100%;
+
+                margin-top: 0.5rem;
+
+                vertical-align: middle;
+
+            }
+
+        }
+
+    }
+
+}

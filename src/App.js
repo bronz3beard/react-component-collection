@@ -5,10 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Picture 
-        image="https://www.w3schools.com/w3css/img_lights.jpg" 
-        imageAlt="Northern Lights"
-      />
+      <Picture image="https://www.w3schools.com/w3css/img_lights.jpg"  imageAlt="Northern Lights" />
     </div>
   );
 }
