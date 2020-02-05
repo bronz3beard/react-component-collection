@@ -19,29 +19,6 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-/**
-
- * @render react
-
- * @name Modal
-
- * @description This is a simple modal element which can contain any type of children.
-
-Modal props:  
-
-`children` = child properties of the Modal component.  
-
-`showModal={showModal}` = a Boolean to toggle Modal visibility.  
-
-`handleModal={handleModal}` = A simple Boolean function to show and hide modal.  
-
-`backGroundStyle={backGroundStyle}` = This is an alternative to having a black modal background, you can pass inline style of a background image.
-
-`hideBodyOverflowY={false}` = This is set to `true` by default.
-
- * @example <Modal>This is a Modal</Modal>
-
- */
 var Modal = function Modal(props) {
   var children = props.children,
       showModal = props.showModal,

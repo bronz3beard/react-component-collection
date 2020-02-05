@@ -5,20 +5,7 @@ import Modal from "../modal";
 
 import styles from "./videoPlayer.module.scss";
 
-/**
- * @render react
- * @name VideoPlayer
- * @description This is a simple header element which can contain any type of children
- * @example   <VideoPlayer
-    url="https://vimeo.com/169599296"
-    imageUrl=""
-    videoTitle="This is a title"
-    videoDescription="This is a video description"
-    withModal
-  /> 
- */
-
-const VideoPlayer = props => {
+const VideoPlayer = (props) => {
   const {
     url,
     mute,

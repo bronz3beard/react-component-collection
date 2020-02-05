@@ -2,20 +2,7 @@ import React, { useEffect } from "react";
 import PropTypes, { element } from "prop-types";
 import styles from "./modal.module.scss";
 
-/**
- * @render react
- * @name Modal
- * @description This is a simple modal element which can contain any type of children.
-Modal props:  
-`children` = child properties of the Modal component.  
-`showModal={showModal}` = a Boolean to toggle Modal visibility.  
-`handleModal={handleModal}` = A simple Boolean function to show and hide modal.  
-`backGroundStyle={backGroundStyle}` = This is an alternative to having a black modal background, you can pass inline style of a background image.
-`hideBodyOverflowY={false}` = This is set to `true` by default.
- * @example <Modal>This is a Modal</Modal>
- */
-
-const Modal = props => {
+const Modal = (props) => {
   const {
     children,
     showModal,

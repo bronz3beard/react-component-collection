@@ -13,17 +13,6 @@ var _headerModule = _interopRequireDefault(require("./header.module.scss"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-/**
-
- * @render react
-
- * @name Header
-
- * @description This is a simple header element which can contain any type of children
-
- * @example <Header>This is a simple header</Header> 
-
- */
 var Header = function Header(props) {
   var children = props.children;
   return _react.default.createElement("div", {

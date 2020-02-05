@@ -31,29 +31,6 @@ function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) ||
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-/**
-
- * @render react
-
- * @name VideoPlayer
-
- * @description This is a simple header element which can contain any type of children
-
- * @example   <VideoPlayer
-
-    url="https://vimeo.com/169599296"
-
-    imageUrl=""
-
-    videoTitle="This is a title"
-
-    videoDescription="This is a video description"
-
-    withModal
-
-  /> 
-
- */
 var VideoPlayer = function VideoPlayer(props) {
   var url = props.url,
       mute = props.mute,

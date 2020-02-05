@@ -24,8 +24,13 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/card@0.2.4": {
+    "bronz3beard.react-component-collection/card@0.3.0": {
         "files": [
+            {
+                "relativePath": "src/components/card/README.md",
+                "test": false,
+                "name": "README.md"
+            },
             {
                 "relativePath": "src/components/card/card.module.scss",
                 "test": false,
@@ -42,8 +47,13 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/footer@0.2.5": {
+    "bronz3beard.react-component-collection/footer@0.3.0": {
         "files": [
+            {
+                "relativePath": "src/components/footer/README.md",
+                "test": false,
+                "name": "README.md"
+            },
             {
                 "relativePath": "src/components/footer/footer.module.scss",
                 "test": false,
@@ -60,8 +70,13 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/header@0.2.9": {
+    "bronz3beard.react-component-collection/header@0.3.0": {
         "files": [
+            {
+                "relativePath": "src/components/header/README.md",
+                "test": false,
+                "name": "README.md"
+            },
             {
                 "relativePath": "src/components/header/header.module.scss",
                 "test": false,
@@ -78,7 +93,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/modal@0.2.9": {
+    "bronz3beard.react-component-collection/modal@0.3.0": {
         "files": [
             {
                 "relativePath": "src/components/modal/README.md",
@@ -101,7 +116,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/picture@0.2.8": {
+    "bronz3beard.react-component-collection/picture@0.3.0": {
         "files": [
             {
                 "relativePath": "src/components/picture/README.md",
@@ -124,7 +139,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/video-player@0.2.9": {
+    "bronz3beard.react-component-collection/video-player@0.3.0": {
         "files": [
             {
                 "relativePath": "src/components/videoPlayer/README.md",
