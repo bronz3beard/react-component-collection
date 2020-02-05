@@ -31,7 +31,7 @@ function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) ||
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-var VideoPlayer = function VideoPlayer(props) {
+function VideoPlayer(props) {
   var url = props.url,
       mute = props.mute,
       loop = props.loop,
@@ -166,8 +166,9 @@ var VideoPlayer = function VideoPlayer(props) {
     config: videoPlayersConfig,
     onContextMenu: handleContextMenu
   })))));
-};
+}
 
+;
 VideoPlayer.propTypes = {
   loop: _propTypes.default.bool,
   mute: _propTypes.default.bool,

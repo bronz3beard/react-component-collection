@@ -139,7 +139,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/video-player@0.3.0": {
+    "bronz3beard.react-component-collection/video-player@0.3.1": {
         "files": [
             {
                 "relativePath": "src/components/videoPlayer/README.md",
