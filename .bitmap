@@ -60,7 +60,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/header@0.2.6": {
+    "bronz3beard.react-component-collection/header@0.2.9": {
         "files": [
             {
                 "relativePath": "src/components/header/header.module.scss",
@@ -78,7 +78,30 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/picture@0.2.2": {
+    "bronz3beard.react-component-collection/modal@0.2.9": {
+        "files": [
+            {
+                "relativePath": "src/components/modal/README.md",
+                "test": false,
+                "name": "README.md"
+            },
+            {
+                "relativePath": "src/components/modal/index.js",
+                "test": false,
+                "name": "index.js"
+            },
+            {
+                "relativePath": "src/components/modal/modal.module.scss",
+                "test": false,
+                "name": "modal.module.scss"
+            }
+        ],
+        "mainFile": "src/components/modal/index.js",
+        "trackDir": "src/components/modal",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "bronz3beard.react-component-collection/picture@0.2.8": {
         "files": [
             {
                 "relativePath": "src/components/picture/README.md",
@@ -98,6 +121,29 @@
         ],
         "mainFile": "src/components/picture/index.js",
         "trackDir": "src/components/picture",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "bronz3beard.react-component-collection/video-player@0.2.9": {
+        "files": [
+            {
+                "relativePath": "src/components/videoPlayer/README.md",
+                "test": false,
+                "name": "README.md"
+            },
+            {
+                "relativePath": "src/components/videoPlayer/index.js",
+                "test": false,
+                "name": "index.js"
+            },
+            {
+                "relativePath": "src/components/videoPlayer/videoPlayer.module.scss",
+                "test": false,
+                "name": "videoPlayer.module.scss"
+            }
+        ],
+        "mainFile": "src/components/videoPlayer/index.js",
+        "trackDir": "src/components/videoPlayer",
         "origin": "AUTHORED",
         "exported": true
     },

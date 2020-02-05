@@ -17,11 +17,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
  * @render react
 
- * @name FHeader
+ * @name Header
 
  * @description This is a simple header element which can contain any type of children
 
- * @example <Header>The is the headers</Header> 
+ * @example <Header>This is a simple header</Header> 
 
  */
 var Header = function Header(props) {
