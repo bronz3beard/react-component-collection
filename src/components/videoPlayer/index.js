@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Fragment, useState } from "react";
 import PropTypes from "prop-types";
 import ReactPlayer from "react-player";
 import Modal from "../modal";
@@ -37,7 +37,7 @@ const VideoPlayer = (props) => {
   };
 
   const customPlayIcon = (
-    <>
+    <Fragment>
       {withModal ? (
         <img
           className={styles.playButton}
@@ -51,7 +51,7 @@ const VideoPlayer = (props) => {
             alt="play video"
           />
         )}
-    </>
+    </Fragment>
   );
 
   const videoPlayersConfig = {

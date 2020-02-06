@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { Fragment, useEffect } from "react";
 import PropTypes, { element } from "prop-types";
 import styles from "./modal.module.scss";
 
@@ -19,7 +19,7 @@ const Modal = (props) => {
   // TODO: Maybe add close X or icon for handleModal and remove from modalBody.
 
   return (
-    <>
+    <Fragment>
       {showModal && (
         <div
           className={styles.modalOverlay}
@@ -30,7 +30,7 @@ const Modal = (props) => {
           </div>
         </div>
       )}
-    </>
+    </Fragment>
   );
 };
 

@@ -2,8 +2,9 @@ import React from 'react';
 // import Picture from './components/picture';
 // import BasicCard from './components/card';
 // import VideoPlayer from './components/videoPlayer';
-// eslint-disable-next-line no-unused-vars
-import Modal from './components/modal';
+// import Modal from './components/modal';
+// import Animation from './components/canvasParticles';
+import Preloader from './components/loadSpinner';
 import './App.css';
 
 // const images = [
@@ -16,6 +17,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Preloader />
+      {/* <Animation /> */}
       {/* <Modal showModal>This is a Modal</Modal> */}
       {/* <VideoPlayer
         url="https://vimeo.com/169599296"
