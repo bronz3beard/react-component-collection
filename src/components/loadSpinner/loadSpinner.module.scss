@@ -5,9 +5,10 @@
 
 .preloadWrapper {
     position: fixed;
-    top: 5%;
-    left: 88.5%;
+    top: 50%;
+    left: 45%;
     z-index: 1000;
+    transform: translate(-45%, -50%);
 
     .loader {
         display: block;

@@ -24,6 +24,24 @@
         "origin": "AUTHORED",
         "exported": true
     },
+    "bronz3beard.react-component-collection/canvas-particles@0.3.5": {
+        "files": [
+            {
+                "relativePath": "src/components/canvasParticles/README.md",
+                "test": false,
+                "name": "README.md"
+            },
+            {
+                "relativePath": "src/components/canvasParticles/index.js",
+                "test": false,
+                "name": "index.js"
+            }
+        ],
+        "mainFile": "src/components/canvasParticles/index.js",
+        "trackDir": "src/components/canvasParticles",
+        "origin": "AUTHORED",
+        "exported": true
+    },
     "bronz3beard.react-component-collection/card@0.3.4": {
         "files": [
             {
@@ -90,6 +108,29 @@
         ],
         "mainFile": "src/components/header/index.js",
         "trackDir": "src/components/header",
+        "origin": "AUTHORED",
+        "exported": true
+    },
+    "bronz3beard.react-component-collection/load-spinner@0.3.6": {
+        "files": [
+            {
+                "relativePath": "src/components/loadSpinner/README.md",
+                "test": false,
+                "name": "README.md"
+            },
+            {
+                "relativePath": "src/components/loadSpinner/index.js",
+                "test": false,
+                "name": "index.js"
+            },
+            {
+                "relativePath": "src/components/loadSpinner/loadSpinner.module.scss",
+                "test": false,
+                "name": "loadSpinner.module.scss"
+            }
+        ],
+        "mainFile": "src/components/loadSpinner/index.js",
+        "trackDir": "src/components/loadSpinner",
         "origin": "AUTHORED",
         "exported": true
     },
