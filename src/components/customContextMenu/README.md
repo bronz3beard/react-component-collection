@@ -7,16 +7,17 @@ The custom context menu will override the standard right click menu, if you need
 If you need to provide your own links see the `customLinks` structure below. When providing `customLinks` you do not need to add the other props `website`, `hashtag`, `username`.
 
 Default properties:
-  `website: 'lmgtfy.com/',`
-  `hashtag: 'LMGTFY',`
-  `username: 'lmgtfy',`
-  `customLinks: PropTypes.arrayOf(PropTypes.shape(`
-    `{`
-      `id: 0,`
-      `title: '',`
-      `url: '',`
-      `class: '',`
-      `target: '_blank',`
-      `rel: 'noopener noreferrer',`
-    `}`
-  `))`
+  `website: 'lmgtfy.com/',`  
+  `hashtag: 'LMGTFY',`  
+  `username: 'lmgtfy',`  
+  `customLinks: PropTypes.arrayOf(PropTypes.shape(`  
+    `{`  
+      `id: 0,`  
+      `title: '',`  
+      `url: '',`  
+      `class: '',`  
+      `target: '_blank',`  
+      `rel: 'noopener noreferrer',`  
+    `}`  
+  `))`  
+  
