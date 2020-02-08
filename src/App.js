@@ -7,8 +7,10 @@ import React, { useState, useEffect } from 'react';
 // import Preloader from './components/loadSpinner';
 // import OnPageFilter from './components/pageFilter';
 // import DataTable from './components/dataTable';
-import './App.css';
 // import DragAndDrop from './components/dragAndDrop';
+// import ContextMenu from './components/customContextMenu';
+import './App.css';
+
 
 // const images = [
 //   { imageAlt: null, imageUrl: null },
@@ -31,6 +33,41 @@ import './App.css';
 //       Value: "name",
 //   },
 // ]
+
+// const customLinks = [
+//   {
+//     id: 0,
+//     title: "SHARE FB",
+//     url: `https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgoogle.com`,
+//     class: "fb-xfbml-parse-ignore",
+//     target: "_blank",
+//     rel: "noopener noreferrer"
+//   },
+//   {
+//     id: 1,
+//     title: `TWEET #hashtag`,
+//     url: `https://twitter.com/intent/tweet?button_hashtag=hashtag&ref_src=twsrc%5Etfw`,
+//     class: "twitter-hashtag-button",
+//     target: "_blank",
+//     rel: "noopener noreferrer"
+//   },
+//   {
+//     id: 2,
+//     title: `FOLLOW @roryfn`,
+//     url: `https://twitter.com/roryfn?ref_src=twsrc%5Etfw`,
+//     class: "twitter-follow-button",
+//     target: "_blank",
+//     rel: "noopener noreferrer"
+//   },
+//   {
+//     id: 3,
+//     title: `TWEET Me :-) @roryfn`,
+//     url: `https://twitter.com/intent/tweet?screen_name=roryfn&ref_src=twsrc%5Etfw`,
+//     class: "twitter-mention-button",
+//     target: "_blank",
+//     rel: "noopener noreferrer"
+//   }
+// ];
 function App() {
 // const [data, setData] = useState([]);
 // console.log(data);
@@ -75,7 +112,8 @@ function App() {
 // }
   return (
     <div className="App">
-            {/* <DragAndDrop handleDrop={handleDrop}>
+      {/* <ContextMenu customLinks={customLinks} /> */}
+      {/* <DragAndDrop handleDrop={handleDrop}>
         <div
           type="file"
           name="files"

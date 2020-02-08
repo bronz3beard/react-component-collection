@@ -16,7 +16,7 @@
         <div
           type="file"
           name="files"
-          className="drop-zone"
+          id="drop-zone"
           accept="image/*"
           multiple
         ></div>
