@@ -8,6 +8,7 @@ import React, { useState, useEffect } from 'react';
 // import OnPageFilter from './components/pageFilter';
 // import DataTable from './components/dataTable';
 import './App.css';
+// import DragAndDrop from './components/dragAndDrop';
 
 // const images = [
 //   { imageAlt: null, imageUrl: null },
@@ -19,19 +20,15 @@ import './App.css';
 //   {
 //       Header: "Id",
 //       Value: "id",
-//       sortOn: "id",
 //   }, {
 //       Header: "Content",
 //       Value: "body",
-//       sortOn: "body",
 //   }, {
 //       Header: "Email",
 //       Value: "email",
-//       sortOn: "email",
 //   }, {
 //       Header: "Name",
 //       Value: "name",
-//       sortOn: "name",
 //   },
 // ]
 function App() {
@@ -63,9 +60,30 @@ function App() {
 //     const searchValue = event.target.value;
 //     setQuery(searchValue);
 // };
+
+// const handleDrop = (files) => {
+//   let tempFileList = [];
+
+//   for (let i = 0; i < files.length; i++) {
+//     const file = files[i];
+//     if (!file.name) {
+//       return;
+//     }
+//     alert(file.name)
+//     tempFileList.push(file);
+//   }
+// }
   return (
     <div className="App">
-      {/* <DataTable data={data} columns={columns} hasLoader={hasLoader} totalRecordsPerPage={30} /> */}
+            {/* <DragAndDrop handleDrop={handleDrop}>
+        <div
+          type="file"
+          name="files"
+          accept="image/*"
+          multiple
+        ></div>
+      </DragAndDrop> */}
+     {/* <DataTable data={data} columns={columns} hasLoader={hasLoader} totalRecordsPerPage={30} /> */}
       {/* <OnPageFilter query={query} placeHolder={'Place Holder'} searchFilter={searchFilter} /> */}
       {/* <Preloader /> */}
       {/* <Animation /> */}

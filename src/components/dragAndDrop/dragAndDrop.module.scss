@@ -1,0 +1,46 @@
+.dragContainer {
+    height: 24.4em;
+    width: 100%;
+    display: flex;
+    top: 0;
+    position: relative;
+    /*border: solid red 1px;*/
+
+    .dragBorder {
+        border: dashed grey 4px;
+        background-color: rgba(255,255,255,.8);
+        position: absolute;
+        top: .1%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        text-align: center;
+
+        .customFileUpload {
+            position: relative;
+            z-index: 10000;
+            cursor: pointer;
+            margin-top: 2em;
+            padding: 6px 12px;
+            text-align: center;
+            display: inline-block;
+            border: 1px solid #ccc;
+            background-color: #4180C5;
+    
+            input[type="file"] {
+                display: none;
+            }
+        }
+
+        .dragModal {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            left: 0;
+            text-align: center;
+            color: grey;
+            font-size: 36px;
+        }
+    }
+}

@@ -28,7 +28,6 @@ TableRows.propTypes = {
     PropTypes.shape({
       Header: PropTypes.string,
       Value: PropTypes.string,
-      sortOn: PropTypes.string,
     })
   ),
 };

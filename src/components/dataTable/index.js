@@ -126,7 +126,6 @@ DataTable.propTypes = {
     PropTypes.shape({
       Header: PropTypes.string,
       Value: PropTypes.string,
-      sortOn: PropTypes.string
     })
   ),
   hasLoader: PropTypes.bool,

@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import styles from './picture.module.scss';
 
 const Picture = (props) => {
-    const { image, images, imageAlt, imageId } = props;
+    const { image, images, imageAlt, imageId, className } = props;
 
     return (
-        <div className={styles.row}>
+        <div className={!className ? styles.row : className}>
             {images
                 && images.map((image, index) => {
                     const objValue = Object.values(image);
@@ -39,6 +39,7 @@ const Picture = (props) => {
                         draggable="false"
                         src={image}
                         alt={imageAlt}
+                        className={className}
                         onMouseDown={event => event.preventDefault()}
                     />
                 )}
@@ -48,6 +49,7 @@ const Picture = (props) => {
 
 Picture.propTypes = {
     image: PropTypes.string,
+    className: PropTypes.string,
     images: PropTypes.arrayOf(PropTypes.shape({
         imageUrl: PropTypes.string,
         imageAlt: PropTypes.string,
@@ -60,6 +62,7 @@ Picture.defaultProps = {
     image: '',
     images: null,
     imageId: '',
+    className: '',
 };
 
 export default Picture;
