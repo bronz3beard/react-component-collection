@@ -1,0 +1,15 @@
+.tableRow {
+  
+  td {
+    border-bottom: 1px solid grey;
+    padding: 1rem;
+  }
+
+  &:nth-child(1n + 2) {
+    background-color: #dbd9d9;
+
+    &:hover {
+      background-color: #a09d9d;
+    }
+  }
+}
