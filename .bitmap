@@ -83,7 +83,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/custom-context-menu@0.4.8": {
+    "bronz3beard.react-component-collection/custom-context-menu@0.4.9": {
         "files": [
             {
                 "relativePath": "src/components/customContextMenu/README.md",

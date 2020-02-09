@@ -60,10 +60,11 @@ const ContextMenu = props => {
       setVisible(true);
 
       if (rootmenuRef.current) {
+        const isClientSide = typeof window !== 'undefined';
         const clickX = event.clientX;
         const clickY = event.clientY;
-        const screenW = window.innerWidth;
-        const screenH = window.innerHeight;
+        const screenW = isClientSide && window.innerWidth;
+        const screenH = isClientSide && window.innerHeight;
         const rootW = rootmenuRef.current.offsetWidth;
         const rootH = rootmenuRef.current.offsetHeight;
 
