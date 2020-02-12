@@ -25,7 +25,8 @@ Optional props:
 - `videoDescription` = string
 
 To play video with modal add this prop => `withModal`  
-To change the placeholder image update this prop => `imageUrl` or for a more simple player remove custom placeholder image by removing `imageUrl` prop.
+if you want modal to have a background image which will be the same as the `imageUrl` then add this prop: `modalWithImage`  
+To change the placeholder image update this prop => `imageUrl` or for a more simple player remove custom placeholder image by removing `imageUrl` prop.  
 
 VIMEO:  
 Depending on video owners settings on vimeo, controls can be hidden.  
