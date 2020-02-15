@@ -83,7 +83,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/custom-context-menu@0.4.9": {
+    "bronz3beard.react-component-collection/custom-context-menu@0.5.1": {
         "files": [
             {
                 "relativePath": "src/components/customContextMenu/README.md",
@@ -359,7 +359,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/video-player@0.3.4": {
+    "bronz3beard.react-component-collection/video-player@0.5.0": {
         "files": [
             {
                 "relativePath": "src/components/videoPlayer/README.md",

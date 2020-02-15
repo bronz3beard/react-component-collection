@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from "react";
 import PropTypes from "prop-types";
 import styles from "./customContextMenu.module.scss";
 
-const ContextMenu = props => {
+const CustomContextMenu = props => {
   const { website, hashtag, username, customLinks } = props;
 
   const Links = [
@@ -50,7 +50,7 @@ const ContextMenu = props => {
         rootmenuRef.current
       );
     }
-  }, [visible]);
+  }, [rootmenuRef]);
 
   const handleContextMenu = useCallback(
     event => {
@@ -60,11 +60,10 @@ const ContextMenu = props => {
       setVisible(true);
 
       if (rootmenuRef.current) {
-        const isClientSide = typeof window !== 'undefined';
         const clickX = event.clientX;
         const clickY = event.clientY;
-        const screenW = isClientSide && window.innerWidth;
-        const screenH = isClientSide && window.innerHeight;
+        const screenW = window.innerWidth;
+        const screenH = window.innerHeight;
         const rootW = rootmenuRef.current.offsetWidth;
         const rootH = rootmenuRef.current.offsetHeight;
 
@@ -141,7 +140,7 @@ const ContextMenu = props => {
   );
 };
 
-ContextMenu.propTypes = {
+CustomContextMenu.propTypes = {
   website: PropTypes.string,
   hashtag: PropTypes.string,
   username: PropTypes.string,
@@ -157,14 +156,14 @@ ContextMenu.propTypes = {
   )
 };
 
-ContextMenu.defaultProps = {
+CustomContextMenu.defaultProps = {
   website: null,
   hashtag: null,
   username: null,
   customLinks: null,
 };
 
-export default ContextMenu;
+export default CustomContextMenu;
 
 // Custom Hook
 const useEventListener = (target, type, listener, ...options) => {
