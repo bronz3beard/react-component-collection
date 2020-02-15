@@ -2,13 +2,14 @@ import React, { Fragment, useEffect } from "react";
 import PropTypes, { element } from "prop-types";
 import styles from "./modal.module.scss";
 
-const Modal = (props) => {
+const Modal = props => {
   const {
     children,
     showModal,
     handleModal,
     backGroundStyle,
-    hideBodyOverflowY,
+    backgroundColor,
+    hideBodyOverflowY
   } = props;
 
   useEffect(() => {
@@ -23,7 +24,11 @@ const Modal = (props) => {
       {showModal && (
         <div
           className={styles.modalOverlay}
-          style={!backGroundStyle ? null : backGroundStyle}
+          style={
+            !backGroundStyle
+              ? { backgroundColor: backgroundColor }
+              : backGroundStyle
+          }
         >
           <div className={styles.modalBody} onClick={handleModal}>
             {children}
@@ -37,7 +42,7 @@ const Modal = (props) => {
 Modal.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.instanceOf(element),
-    PropTypes.node,
+    PropTypes.node
   ]),
   handleModal: PropTypes.func,
   showModal: PropTypes.bool,
@@ -46,9 +51,10 @@ Modal.propTypes = {
     backgroundSize: PropTypes.string,
     backgroundPosition: PropTypes.string,
     backgroundRepeat: PropTypes.string,
-    backgroundAttachment: PropTypes.string,
+    backgroundAttachment: PropTypes.string
   }),
   hideBodyOverflowY: PropTypes.bool,
+  backgroundColor: PropTypes.string
 };
 
 Modal.defaultProps = {
@@ -57,6 +63,7 @@ Modal.defaultProps = {
   showModal: false,
   backGroundStyle: null,
   hideBodyOverflowY: true,
+  backgroundColor: "black"
 };
 
 export default Modal;
