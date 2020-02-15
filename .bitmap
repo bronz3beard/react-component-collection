@@ -221,7 +221,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/modal@0.3.4": {
+    "bronz3beard.react-component-collection/modal@0.5.2": {
         "files": [
             {
                 "relativePath": "src/components/modal/README.md",
@@ -359,7 +359,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/video-player@0.5.0": {
+    "bronz3beard.react-component-collection/video-player@0.5.2": {
         "files": [
             {
                 "relativePath": "src/components/videoPlayer/README.md",
