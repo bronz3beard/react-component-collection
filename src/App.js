@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 // import Picture from './components/picture';
 // import BasicCard from './components/card';
 // import VideoPlayer from './components/videoPlayer';
-// import Modal from "./components/modal";
+import Modal from "./components/modal";
+import DragAndDrop from "./components/dragAndDrop";
 // import Animation from './components/canvasParticles';
 // import Preloader from './components/loadSpinner';
 // import OnPageFilter from './components/pageFilter';
@@ -109,6 +110,9 @@ function App() {
   //     tempFileList.push(file);
   //   }
   // }
+  const handleModal = () => {
+    console.log("modal clicked");
+  };
   return (
     <div className="App">
       {/* <ContextMenu customLinks={customLinks} /> */}
@@ -124,9 +128,11 @@ function App() {
       {/* <OnPageFilter query={query} placeHolder={'Place Holder'} searchFilter={searchFilter} /> */}
       {/* <Preloader /> */}
       {/* <Animation /> */}
-      {/* <Modal showModal backgroundColor="red">
-        This is a Modal
-      </Modal> */}
+      <Modal showModal backgroundColor="blue" handleModal={handleModal}>
+        <DragAndDrop>
+          <div type="file" name="files" accept="image/*" multiple></div>
+        </DragAndDrop>
+      </Modal>
       {/* <VideoPlayer
         url="https://vimeo.com/169599296"
         imageUrl=""

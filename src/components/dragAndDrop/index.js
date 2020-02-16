@@ -96,7 +96,12 @@ class DragAndDrop extends PureComponent {
         <div className={styles.dragBorder}>
           {dragging && (
             <div className={styles.dragModal}>
-              <div>drop here :)</div>
+              <div>
+                drop here{" "}
+                <span role="img" aria-label="Beaming Face with Smiling Eyes">
+                  😁
+                </span>
+              </div>
             </div>
           )}
           {!dragging && (

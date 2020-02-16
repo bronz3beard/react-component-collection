@@ -22,18 +22,18 @@ const Modal = props => {
   return (
     <Fragment>
       {showModal && (
-        <div
-          className={styles.modalOverlay}
-          style={
-            !backGroundStyle
-              ? { backgroundColor: backgroundColor }
-              : backGroundStyle
-          }
-        >
-          <div className={styles.modalBody} onClick={handleModal}>
-            {children}
-          </div>
-        </div>
+        <Fragment>
+          <div
+            className={styles.modalOverlay}
+            onClick={handleModal}
+            style={
+              !backGroundStyle
+                ? { backgroundColor: backgroundColor }
+                : backGroundStyle
+            }
+          ></div>
+          <div className={styles.modalBody}>{children}</div>
+        </Fragment>
       )}
     </Fragment>
   );

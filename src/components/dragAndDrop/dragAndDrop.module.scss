@@ -1,31 +1,28 @@
 .dragContainer {
-  height: 24.4em;
-  width: 100%;
-  display: flex;
   top: 0;
-  position: relative;
-  /*border: solid red 1px;*/
+  width: 100%;
+  height: 25em;
+  display: flex;
+  position: absolute;
 
   .dragBorder {
-    border: dashed grey 4px;
-    background-color: rgba(255, 255, 255, 0.8);
-    position: absolute;
     top: 0.1%;
+    right: 0;
     bottom: 0;
     left: 0;
-    right: 0;
     z-index: 9999;
     text-align: center;
-    height: 50vh;
-    width: 100%;
+    position: absolute;
+    border: dashed grey 4px;
+    background-color: rgba(255, 255, 255, 0.8);
 
     .customFileUpload {
-      position: relative;
       z-index: 10000;
       cursor: pointer;
       margin-top: 2em;
       padding: 6px 12px;
       text-align: center;
+      position: relative;
       display: inline-block;
       border: 1px solid #ccc;
       background-color: #4180c5;
@@ -36,13 +33,13 @@
     }
 
     .dragModal {
-      position: absolute;
       top: 50%;
       right: 0;
       left: 0;
-      text-align: center;
       color: grey;
-      font-size: 36px;
+      font-size: 3rem;
+      text-align: center;
+      position: absolute;
     }
   }
 }
