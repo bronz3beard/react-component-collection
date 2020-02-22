@@ -129,7 +129,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "bronz3beard.react-component-collection/drag-and-drop@0.5.4": {
+    "bronz3beard.react-component-collection/drag-and-drop@0.5.7": {
         "files": [
             {
                 "relativePath": "src/components/dragAndDrop/README.md",

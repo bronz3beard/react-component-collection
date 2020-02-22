@@ -108,7 +108,7 @@ class DragAndDrop extends PureComponent {
             <div className={styles.dragModal}>drag and drop files</div>
           )}
           <label htmlFor="file-upload" className={styles.customFileUpload}>
-            Custom Upload
+            Upload
             <input id="file-upload" type="file" multiple ref={this.selectRef} />
           </label>
         </div>
